@@ -1,0 +1,116 @@
+HTML Lessons: September 2024
+
+================================
+
+Day 1: Friday, 27 September 2024
+Topic: HTML Lists and Nested Lists
+
+Objective: By the end of today’s lesson, you will understand how to create ordered and unordered lists and how to nest lists within each other.
+
+Ordered Lists (numbered)
+Unordered Lists (bulleted)
+We’ll also learn about nested lists, which are lists inside other lists.
+
+1. Ordered Lists (<ol>)
+Ordered lists are used when the order of items matters. For example, if you're listing your top 3 favorite fruits, you would use an ordered list so that the items appear numbered.
+
+Explanation:
+The <ol> tag stands for ordered list.
+Inside the <ol> tag, each item is placed within an <li> tag (list item).
+The browser automatically numbers the items for you.
+
+
+2. Unordered Lists (<ul>)
+Unordered lists are used when the order doesn’t matter, and you just want to display a simple list of items with bullet points. For example, if you want to list random items like different hobbies, you would use an unordered list.
+
+Explanation:
+
+The <ul> tag stands for unordered list.
+Each item within an unordered list is also placed in an <li> tag.
+The browser automatically adds bullet points (instead of numbers) to the list items.
+3. Nested Lists
+Nested lists are lists that are placed inside another list. You can have a list within a list to show a relationship between items.
+
+Explanation:
+
+A nested list simply means a list inside another list.
+You can nest an unordered list inside an ordered list or another unordered list.
+This is helpful when you need to categorize items further.
+Assignment for Day 1:
+
+Create a webpage that contains:
+An ordered list of 3 countries you'd like to visit.
+An unordered list of your favorite books.
+A nested list where you categorize the books into genres (e.g., Fiction, Non-fiction).
+
+
+================================
+
+Day 2: Sunday, 29 September 2024
+Topic: HTML Forms
+
+Objective: By the end of this lesson, you will understand how to create a simple form using HTML, which includes input fields, labels, and a submit button.
+
+What is an HTML Form?
+- An HTML form is a section of a webpage that allows users to enter data and send it to a server.
+- Forms are essential for collecting user information, such as names, email addresses, and other input data.
+
+Basic Structure of a Form:
+- The form is defined by the <form> tag. All the elements that collect user data are nested within this tag.
+
+Key Elements of a Form:
+1. Form Tag (<form>):
+   - The <form> element creates the form container.
+   - Attributes may include:
+     - action: Specifies where to send the form data when submitted.
+     - method: Specifies how to send the data (GET or POST).
+
+2. Input Fields (<input>):
+   - The <input> element creates various types of fields for user input.
+   - The type attribute defines what kind of input field it is (text, email, password, etc.).
+
+3. Labels (<label>):
+   - The <label> element defines labels for input fields, improving accessibility.
+
+4. Submit Button (<button> or <input type="submit">):
+   - Creates a button that users click to submit the form.
+
+Complete Example of a Simple Form:
+- Create a form with fields for:
+  - Name
+  - Email
+  - Message
+  - A submit button
+
+Assignment for Day 3:
+Create a simple form that asks for the user’s:
+   - Name
+   - Email address
+   - Message
+   - Include a submit button
+
+
+================================
+
+DAY 3:CSS
+
+
+-------------------------------
+-------------------------------
+
+BONUS TIPSSS
+<!DOCTYPE html>
+This tells the browser that you are writing an HTML5 document. Every HTML document starts with this declaration.
+
+
+<html lang="en">
+The <html> tag marks the start of the HTML document.
+The lang="en" attribute indicates that the document is written in English.
+
+
+<head>
+The <head> section is where you include metadata about the webpage (information not visible to the user).
+Inside the <head> tag:
+<meta charset="UTF-8">: Ensures your page uses the correct character encoding.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: This makes the page responsive to different screen sizes (useful for mobile devices).
+
